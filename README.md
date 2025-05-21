@@ -45,3 +45,34 @@ function appendMessage(sender, text) {
     chatBox.appendChild(message);
     chatBox.scrollTop = chatBox.scrollHeight;
 }
+body {
+    font-family: sans-serif;
+    background-color: #1e1e1e;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#chat-container {
+    width: 90%;
+    max-width: 500px;
+    background-color: #2c2c2c;
+    border-radius: 15px;
+    padding: 20px;
+}
+#chat-box {
+    height: 300px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+}
+.message {
+    margin: 10px 0;
+}
+.bot {
+    color: #90caf9;
+}
+.user {
+    color: #f48fb1;
+    text-align: right;
+}
